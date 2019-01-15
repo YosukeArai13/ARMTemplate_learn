@@ -1,0 +1,27 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "location": {
+      "value": "japaneast"
+    },
+    "prefix": {
+      "value": "azbook"
+    },
+    "skuName": {
+      "value": "S1"
+    },
+    "skuCapacity": {
+      "value": 2
+    },
+    "appDnsLabel": {
+      "value": "azbookap50"
+    },
+    "dockerRegistryImageName": {
+      "value": "torumakabe/nodetodo:1.0.0"
+    },
+    "dbAccountName": {
+      "value": "azbookdb50"
+    }
+  }
+}
